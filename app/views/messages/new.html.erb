@@ -1,5 +1,9 @@
 <h3>mini-talk-app</h3>
-<%= link_to "仮のボタンです", "#", class: "btn btn-primary" %>
+<div class="a">
+    <div class="b"><img class="c" src="assets/bootstrap-icons.png"></div>
+    <div class="b"><img class="c" src="assets/image.png"></div>
+</div>
+<%= link_to "仮のボタンです", "#", class: "btn btn-outline-dark" %>
 <%= form_with model: @message do |f| %>
   <%= f.text_field :text %>
   <%= f.submit '送信' %>
